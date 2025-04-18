@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In/Sign Up</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-form" id="LoginForm">
+            <h1>サインイン日本</h1>
+            <div class="social-icons">
+                <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+
+            <div class="form-message-container">
+                <span>またはメールアドレスとパスコードを使用する</span>
+            </div>
+
+            <form>
+                <input type="email" placeholder="電子メール">
+                <input type="password" placeholder="パスワード">
+                <button>サインイン</button>
+                <a href="#">パスワードをお忘れですか？</a>
+            </form>
+            
+            <p>アカウントをお持ちではありませんか? <a href="#" id="showSignUp">サインアップ</a></p>
+        </div>
+
+        <div class="signup-form hidden" id="signupForm">
+             <h1>アカウントを作成する</h1>
+             <div class="social-icons">
+                 <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+                 <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                 <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                 <a href="#" class="icon"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+                <div class="form-message-container">
+                    <span>またはメールアドレスを使用して登録してください</span>
+                </div>
+    
+                <form>
+                    <input type="text" placeholder="名前">
+                    <input type="email" placeholder="電子メール">
+                    <input type="password" placeholder="パスワード">
+                    <button>サインアップ</button>
+                </form>
+
+                <p>すでにアカウントをお持ちですか?<a href="#" id="showlogin">サインイン</a></p>
+        </div>
+    </div>
+</body>
+</html>
